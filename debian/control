@@ -1,0 +1,12 @@
+Source: ros-galactic-kobuki-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake-ros, ros-galactic-ecl-build, ros-galactic-ecl-command-line, ros-galactic-ecl-config, ros-galactic-ecl-console, ros-galactic-ecl-converters, ros-galactic-ecl-devices, ros-galactic-ecl-geometry, ros-galactic-ecl-mobile-robot, ros-galactic-ecl-sigslots, ros-galactic-ecl-threads, ros-galactic-ecl-time, ros-galactic-ros-workspace
+Homepage: https://kobuki.readthedocs.io/en/release-1.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-galactic-kobuki-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-ecl-command-line, ros-galactic-ecl-config, ros-galactic-ecl-console, ros-galactic-ecl-converters, ros-galactic-ecl-devices, ros-galactic-ecl-geometry, ros-galactic-ecl-mobile-robot, ros-galactic-ecl-sigslots, ros-galactic-ecl-threads, ros-galactic-ecl-time, ros-galactic-ros-workspace
+Description: Pure C++ driver library for Kobuki.
