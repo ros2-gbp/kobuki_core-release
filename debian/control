@@ -1,0 +1,12 @@
+Source: ros-rolling-kobuki-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-ros, ros-rolling-ecl-build, ros-rolling-ecl-command-line, ros-rolling-ecl-config, ros-rolling-ecl-console, ros-rolling-ecl-converters, ros-rolling-ecl-devices, ros-rolling-ecl-geometry, ros-rolling-ecl-mobile-robot, ros-rolling-ecl-sigslots, ros-rolling-ecl-threads, ros-rolling-ecl-time, ros-rolling-ros-workspace
+Homepage: https://kobuki.readthedocs.io/en/release-1.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-rolling-kobuki-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ecl-command-line, ros-rolling-ecl-config, ros-rolling-ecl-console, ros-rolling-ecl-converters, ros-rolling-ecl-devices, ros-rolling-ecl-geometry, ros-rolling-ecl-mobile-robot, ros-rolling-ecl-sigslots, ros-rolling-ecl-threads, ros-rolling-ecl-time, ros-rolling-ros-workspace
+Description: Pure C++ driver library for Kobuki.
