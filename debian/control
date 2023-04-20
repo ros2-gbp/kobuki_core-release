@@ -1,0 +1,12 @@
+Source: ros-iron-kobuki-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-ros, ros-iron-ecl-build, ros-iron-ecl-command-line, ros-iron-ecl-config, ros-iron-ecl-console, ros-iron-ecl-converters, ros-iron-ecl-devices, ros-iron-ecl-geometry, ros-iron-ecl-mobile-robot, ros-iron-ecl-sigslots, ros-iron-ecl-threads, ros-iron-ecl-time, ros-iron-ros-workspace
+Homepage: https://kobuki.readthedocs.io/en/release-1.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-iron-kobuki-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ecl-command-line, ros-iron-ecl-config, ros-iron-ecl-console, ros-iron-ecl-converters, ros-iron-ecl-devices, ros-iron-ecl-geometry, ros-iron-ecl-mobile-robot, ros-iron-ecl-sigslots, ros-iron-ecl-threads, ros-iron-ecl-time, ros-iron-ros-workspace
+Description: Pure C++ driver library for Kobuki.
