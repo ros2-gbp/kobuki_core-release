@@ -1,0 +1,12 @@
+Source: ros-jazzy-kobuki-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ecl-build, ros-jazzy-ecl-command-line, ros-jazzy-ecl-config, ros-jazzy-ecl-console, ros-jazzy-ecl-converters, ros-jazzy-ecl-devices, ros-jazzy-ecl-geometry, ros-jazzy-ecl-mobile-robot, ros-jazzy-ecl-sigslots, ros-jazzy-ecl-threads, ros-jazzy-ecl-time, ros-jazzy-ros-workspace
+Homepage: https://kobuki.readthedocs.io/en/release-1.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-kobuki-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ecl-command-line, ros-jazzy-ecl-config, ros-jazzy-ecl-console, ros-jazzy-ecl-converters, ros-jazzy-ecl-devices, ros-jazzy-ecl-geometry, ros-jazzy-ecl-mobile-robot, ros-jazzy-ecl-sigslots, ros-jazzy-ecl-threads, ros-jazzy-ecl-time, ros-jazzy-ros-workspace
+Description: Pure C++ driver library for Kobuki.
