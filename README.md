@@ -1,3 +1,26 @@
+## kobuki_core (iron) - 1.4.1-1
+
+The packages in the `kobuki_core` repository were released into the `iron` distro by running `/usr/bin/bloom-release --track iron --rosdistro iron kobuki_core` on `Thu, 13 Jun 2024 18:26:32 -0000`
+
+The `kobuki_core` package was released.
+
+Version of package(s) in repository `kobuki_core`:
+
+- upstream repository: https://github.com/kobuki-base/kobuki_core.git
+- release repository: https://github.com/ros2-gbp/kobuki_core-release.git
+- rosdistro version: `1.4.0-3`
+- old version: `1.4.0-3`
+- new version: `1.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## kobuki_core (humble) - 1.4.1-1
 
 The packages in the `kobuki_core` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble kobuki_core` on `Thu, 13 Jun 2024 18:25:12 -0000`
