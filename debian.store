@@ -1,1 +1,1 @@
-{"base": "41b4e9e", "parent": "debian/rolling/kobuki_core", "previous": "62fa156", "trim": "", "trimbase": ""}
+{"base": "bfd320c3b4b6", "parent": "debian/kilted/kobuki_core", "previous": "1110b92ef5ba", "trim": "", "trimbase": ""}
