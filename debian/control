@@ -1,0 +1,12 @@
+Source: ros-kilted-kobuki-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-ecl-build, ros-kilted-ecl-command-line, ros-kilted-ecl-config, ros-kilted-ecl-console, ros-kilted-ecl-converters, ros-kilted-ecl-devices, ros-kilted-ecl-geometry, ros-kilted-ecl-mobile-robot, ros-kilted-ecl-sigslots, ros-kilted-ecl-threads, ros-kilted-ecl-time, ros-kilted-ros-workspace
+Homepage: https://kobuki.readthedocs.io/en/release-1.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-kilted-kobuki-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ecl-command-line, ros-kilted-ecl-config, ros-kilted-ecl-console, ros-kilted-ecl-converters, ros-kilted-ecl-devices, ros-kilted-ecl-geometry, ros-kilted-ecl-mobile-robot, ros-kilted-ecl-sigslots, ros-kilted-ecl-threads, ros-kilted-ecl-time, ros-kilted-ros-workspace
+Description: Pure C++ driver library for Kobuki.
