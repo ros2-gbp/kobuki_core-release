@@ -1,0 +1,12 @@
+Source: ros-lyrical-kobuki-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-ros, ros-lyrical-ecl-build, ros-lyrical-ecl-command-line, ros-lyrical-ecl-config, ros-lyrical-ecl-console, ros-lyrical-ecl-converters, ros-lyrical-ecl-devices, ros-lyrical-ecl-geometry, ros-lyrical-ecl-mobile-robot, ros-lyrical-ecl-sigslots, ros-lyrical-ecl-threads, ros-lyrical-ecl-time, ros-lyrical-ros-workspace
+Homepage: https://kobuki.readthedocs.io/en/release-1.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-kobuki-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ecl-command-line, ros-lyrical-ecl-config, ros-lyrical-ecl-console, ros-lyrical-ecl-converters, ros-lyrical-ecl-devices, ros-lyrical-ecl-geometry, ros-lyrical-ecl-mobile-robot, ros-lyrical-ecl-sigslots, ros-lyrical-ecl-threads, ros-lyrical-ecl-time, ros-lyrical-ros-workspace
+Description: Pure C++ driver library for Kobuki.
